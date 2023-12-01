@@ -1,0 +1,20 @@
+{
+  "name": "vitepress-doc",
+  "version": "1.0.0",
+  "description": "nianba23's doc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs --host --port 4444",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "nianba23",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
